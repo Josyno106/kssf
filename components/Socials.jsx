@@ -4,7 +4,6 @@ import { FiYoutube } from "react-icons/fi";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
 import { FacebookProvider, EmbeddedPost } from "react-facebook";
-import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 import {
   InstagramEmbed,

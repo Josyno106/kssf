@@ -98,10 +98,8 @@ const NewsSection = () => {
           <div className="bg-gray-100 p-1 h-[30rem] overflow-y-scroll ">
             <div className="m-1">
               {eventsList.map((event, index) => (
-                <div>
-                  <h4 key={index} className="font-bold">
-                    {event.title}
-                  </h4>
+                <div key={index}>
+                  <h4 className="font-bold">{event.title}</h4>
                   <ul>
                     {event.events.map((ev, i) => (
                       <li key={i}>{ev.title}</li>
