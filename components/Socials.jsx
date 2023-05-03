@@ -17,7 +17,7 @@ import {
 function Socials(props) {
   const handles = [
     {
-      url: "https://twitter.com/PixelAndBracket/status/1356633038717923333",
+      url: "https://twitter.com/ShootingKe?t=MMmh1rt-8zCKCIx6P5JLJQ&s=09",
       platform: TwitterEmbed,
     },
     {
@@ -36,7 +36,7 @@ function Socials(props) {
     // borderRadius: "10px",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    // backgroundImage: `url(${slides[currentIndex].url})`,
+    // backgroundImage: `url(${slides[currentIndex].url})`,//disabled tester
   };
   return (
     <>
