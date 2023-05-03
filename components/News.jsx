@@ -72,7 +72,7 @@ const NewsSection = () => {
           onCloseComplete={() => setIsShown(false)}
           hasFooter={false}
         >
-          Oops, we couldn't find any more events at this time!
+          Oops, we couldn&apos;t find any more events at this time!
         </Dialog>
       </Pane>
       <div className=" flex mt-2 gap-2 ">
