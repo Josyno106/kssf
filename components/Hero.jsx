@@ -1,6 +1,5 @@
 import { Carousel } from "react-responsive-carousel";
 import ImageSlider from "./ImageSlider";
-import pic1 from "../assets/img/1.jpg";
 
 const HeroSection = () => {
   const slides = [
